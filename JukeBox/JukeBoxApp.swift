@@ -11,7 +11,8 @@ import SwiftUI
 struct JukeBoxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(GlobalIndex())
+                .environmentObject(GlobalGenre())
         }
     }
 }

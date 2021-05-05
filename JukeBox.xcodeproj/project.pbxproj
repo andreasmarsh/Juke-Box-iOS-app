@@ -7,12 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680BE5062633646800E94430 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680BE5052633646800E94430 /* Info.swift */; };
 		68272A792608E8D000041242 /* JukeBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68272A782608E8D000041242 /* JukeBoxApp.swift */; };
 		68272A7B2608E8D000041242 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68272A7A2608E8D000041242 /* ContentView.swift */; };
 		68272A7D2608E8D100041242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68272A7C2608E8D100041242 /* Assets.xcassets */; };
 		68272A802608E8D100041242 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68272A7F2608E8D100041242 /* Preview Assets.xcassets */; };
 		68272A8B2608E8D100041242 /* JukeBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68272A8A2608E8D100041242 /* JukeBoxTests.swift */; };
 		68272A962608E8D100041242 /* JukeBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68272A952608E8D100041242 /* JukeBoxUITests.swift */; };
+		68272AAC2608EAEF00041242 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68272AAB2608EAEF00041242 /* CardView.swift */; };
+		68272AB8260900F700041242 /* everlong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 68272AB7260900F600041242 /* everlong.m4a */; };
+		68272ADA26090A1D00041242 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68272AD926090A1D00041242 /* Storage.swift */; };
+		684DBC2626348873009C9DA4 /* high.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC2526348873009C9DA4 /* high.m4a */; };
+		684DBC2B26348A2E009C9DA4 /* religion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC2A26348A2E009C9DA4 /* religion.m4a */; };
+		684DBC3026348B62009C9DA4 /* suburbs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC2F26348B62009C9DA4 /* suburbs.m4a */; };
+		684DBC3526348CA6009C9DA4 /* young.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC3426348CA6009C9DA4 /* young.m4a */; };
+		684DBC3A26348EF9009C9DA4 /* sunnySide.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC3926348EF9009C9DA4 /* sunnySide.m4a */; };
+		684DBC4326349391009C9DA4 /* flyMe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC4226349391009C9DA4 /* flyMe.m4a */; };
+		684DBC4826349553009C9DA4 /* satinDoll.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC4726349553009C9DA4 /* satinDoll.m4a */; };
+		684DBC4D263496DA009C9DA4 /* pieces.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC4C263496DA009C9DA4 /* pieces.m4a */; };
+		684DBC522634985C009C9DA4 /* birdland.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC512634985C009C9DA4 /* birdland.m4a */; };
+		684DBC5726349B8F009C9DA4 /* wesleys.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC5626349B8F009C9DA4 /* wesleys.m4a */; };
+		684DBC6026349CA8009C9DA4 /* sunday.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC5F26349CA8009C9DA4 /* sunday.m4a */; };
+		684DBC652634A000009C9DA4 /* comeDown.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC642634A000009C9DA4 /* comeDown.m4a */; };
+		684DBC6D2634A190009C9DA4 /* america.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC6C2634A190009C9DA4 /* america.m4a */; };
+		684DBC722634A285009C9DA4 /* wakeUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC712634A285009C9DA4 /* wakeUp.m4a */; };
+		684DBC772634A3CD009C9DA4 /* slightFigure.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC762634A3CD009C9DA4 /* slightFigure.m4a */; };
+		684DBC802634A520009C9DA4 /* missed.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC7F2634A520009C9DA4 /* missed.m4a */; };
+		684DBC852634A780009C9DA4 /* fastCar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC842634A780009C9DA4 /* fastCar.m4a */; };
+		684DBC8A2634A98E009C9DA4 /* hoHey.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC892634A98E009C9DA4 /* hoHey.m4a */; };
+		684DBC8F2634AAD4009C9DA4 /* sourGrapes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC8E2634AAD4009C9DA4 /* sourGrapes.m4a */; };
+		684DBC942634ACEE009C9DA4 /* apartment.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC932634ACEE009C9DA4 /* apartment.m4a */; };
+		684DBC9F2634AE1A009C9DA4 /* wideEyes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBC9E2634AE1A009C9DA4 /* wideEyes.m4a */; };
+		684DBCA72634B066009C9DA4 /* undercover.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBCA62634B066009C9DA4 /* undercover.m4a */; };
+		684DBCAF2634B1A8009C9DA4 /* walcott.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBCAE2634B1A8009C9DA4 /* walcott.m4a */; };
+		684DBCB7263631E6009C9DA4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684DBCB6263631E6009C9DA4 /* AudioPlayer.swift */; };
+		6871D23126325348002D2607 /* musicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6871D23026325348002D2607 /* musicVideo.swift */; };
+		68B3F88626325C9700FC0437 /* tabLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3F88526325C9700FC0437 /* tabLauncher.swift */; };
+		68B3F88B2632629000FC0437 /* 1901.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 68B3F88A2632628F00FC0437 /* 1901.m4a */; };
+		68B3F8932632667900FC0437 /* lyricLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3F8922632667900FC0437 /* lyricLauncher.swift */; };
+		68B6669726333C8700AD6051 /* ComingSoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68B6669626333C8700AD6051 /* ComingSoon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		680BE5052633646800E94430 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		68272A752608E8D000041242 /* JukeBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JukeBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68272A782608E8D000041242 /* JukeBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukeBoxApp.swift; sourceTree = "<group>"; };
 		68272A7A2608E8D000041242 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +79,38 @@
 		68272A912608E8D100041242 /* JukeBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukeBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68272A952608E8D100041242 /* JukeBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukeBoxUITests.swift; sourceTree = "<group>"; };
 		68272A972608E8D100041242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68272AAB2608EAEF00041242 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		68272AB7260900F600041242 /* everlong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = everlong.m4a; sourceTree = "<group>"; };
+		68272AD926090A1D00041242 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		684DBC2526348873009C9DA4 /* high.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = high.m4a; sourceTree = "<group>"; };
+		684DBC2A26348A2E009C9DA4 /* religion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = religion.m4a; sourceTree = "<group>"; };
+		684DBC2F26348B62009C9DA4 /* suburbs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = suburbs.m4a; sourceTree = "<group>"; };
+		684DBC3426348CA6009C9DA4 /* young.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = young.m4a; sourceTree = "<group>"; };
+		684DBC3926348EF9009C9DA4 /* sunnySide.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunnySide.m4a; sourceTree = "<group>"; };
+		684DBC4226349391009C9DA4 /* flyMe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = flyMe.m4a; sourceTree = "<group>"; };
+		684DBC4726349553009C9DA4 /* satinDoll.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = satinDoll.m4a; sourceTree = "<group>"; };
+		684DBC4C263496DA009C9DA4 /* pieces.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pieces.m4a; sourceTree = "<group>"; };
+		684DBC512634985C009C9DA4 /* birdland.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = birdland.m4a; sourceTree = "<group>"; };
+		684DBC5626349B8F009C9DA4 /* wesleys.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wesleys.m4a; sourceTree = "<group>"; };
+		684DBC5F26349CA8009C9DA4 /* sunday.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sunday.m4a; sourceTree = "<group>"; };
+		684DBC642634A000009C9DA4 /* comeDown.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = comeDown.m4a; sourceTree = "<group>"; };
+		684DBC6C2634A190009C9DA4 /* america.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = america.m4a; sourceTree = "<group>"; };
+		684DBC712634A285009C9DA4 /* wakeUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wakeUp.m4a; sourceTree = "<group>"; };
+		684DBC762634A3CD009C9DA4 /* slightFigure.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = slightFigure.m4a; sourceTree = "<group>"; };
+		684DBC7F2634A520009C9DA4 /* missed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = missed.m4a; sourceTree = "<group>"; };
+		684DBC842634A780009C9DA4 /* fastCar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fastCar.m4a; sourceTree = "<group>"; };
+		684DBC892634A98E009C9DA4 /* hoHey.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hoHey.m4a; sourceTree = "<group>"; };
+		684DBC8E2634AAD4009C9DA4 /* sourGrapes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sourGrapes.m4a; sourceTree = "<group>"; };
+		684DBC932634ACEE009C9DA4 /* apartment.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = apartment.m4a; sourceTree = "<group>"; };
+		684DBC9E2634AE1A009C9DA4 /* wideEyes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wideEyes.m4a; sourceTree = "<group>"; };
+		684DBCA62634B066009C9DA4 /* undercover.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = undercover.m4a; sourceTree = "<group>"; };
+		684DBCAE2634B1A8009C9DA4 /* walcott.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = walcott.m4a; sourceTree = "<group>"; };
+		684DBCB6263631E6009C9DA4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		6871D23026325348002D2607 /* musicVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicVideo.swift; sourceTree = "<group>"; };
+		68B3F88526325C9700FC0437 /* tabLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabLauncher.swift; sourceTree = "<group>"; };
+		68B3F88A2632628F00FC0437 /* 1901.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1901.m4a; sourceTree = "<group>"; };
+		68B3F8922632667900FC0437 /* lyricLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lyricLauncher.swift; sourceTree = "<group>"; };
+		68B6669626333C8700AD6051 /* ComingSoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComingSoon.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +163,20 @@
 			children = (
 				68272A782608E8D000041242 /* JukeBoxApp.swift */,
 				68272A7A2608E8D000041242 /* ContentView.swift */,
+				68272AD926090A1D00041242 /* Storage.swift */,
+				68272AAB2608EAEF00041242 /* CardView.swift */,
+				684DBCB6263631E6009C9DA4 /* AudioPlayer.swift */,
+				680BE5052633646800E94430 /* Info.swift */,
+				6871D23026325348002D2607 /* musicVideo.swift */,
+				68B3F88526325C9700FC0437 /* tabLauncher.swift */,
+				68B3F8922632667900FC0437 /* lyricLauncher.swift */,
+				68B6669626333C8700AD6051 /* ComingSoon.ttf */,
 				68272A7C2608E8D100041242 /* Assets.xcassets */,
+				6861F58B26336AFD00A897E7 /* indie */,
+				6861F59226336B5C00A897E7 /* rock */,
+				684DBC3E26348EFE009C9DA4 /* jazz */,
+				684DBC5B26349B93009C9DA4 /* rap */,
+				684DBC7B2634A3D3009C9DA4 /* folk */,
 				68272A812608E8D100041242 /* Info.plist */,
 				68272A7E2608E8D100041242 /* Preview Content */,
 			);
@@ -128,6 +207,66 @@
 				68272A972608E8D100041242 /* Info.plist */,
 			);
 			path = JukeBoxUITests;
+			sourceTree = "<group>";
+		};
+		684DBC3E26348EFE009C9DA4 /* jazz */ = {
+			isa = PBXGroup;
+			children = (
+				684DBC3926348EF9009C9DA4 /* sunnySide.m4a */,
+				684DBC4226349391009C9DA4 /* flyMe.m4a */,
+				684DBC4726349553009C9DA4 /* satinDoll.m4a */,
+				684DBC4C263496DA009C9DA4 /* pieces.m4a */,
+				684DBC512634985C009C9DA4 /* birdland.m4a */,
+			);
+			path = jazz;
+			sourceTree = "<group>";
+		};
+		684DBC5B26349B93009C9DA4 /* rap */ = {
+			isa = PBXGroup;
+			children = (
+				684DBC5626349B8F009C9DA4 /* wesleys.m4a */,
+				684DBC642634A000009C9DA4 /* comeDown.m4a */,
+				684DBC5F26349CA8009C9DA4 /* sunday.m4a */,
+				684DBC6C2634A190009C9DA4 /* america.m4a */,
+				684DBC712634A285009C9DA4 /* wakeUp.m4a */,
+			);
+			path = rap;
+			sourceTree = "<group>";
+		};
+		684DBC7B2634A3D3009C9DA4 /* folk */ = {
+			isa = PBXGroup;
+			children = (
+				684DBC762634A3CD009C9DA4 /* slightFigure.m4a */,
+				684DBC7F2634A520009C9DA4 /* missed.m4a */,
+				684DBC842634A780009C9DA4 /* fastCar.m4a */,
+				684DBC892634A98E009C9DA4 /* hoHey.m4a */,
+				684DBC8E2634AAD4009C9DA4 /* sourGrapes.m4a */,
+			);
+			path = folk;
+			sourceTree = "<group>";
+		};
+		6861F58B26336AFD00A897E7 /* indie */ = {
+			isa = PBXGroup;
+			children = (
+				68B3F88A2632628F00FC0437 /* 1901.m4a */,
+				684DBC932634ACEE009C9DA4 /* apartment.m4a */,
+				684DBC9E2634AE1A009C9DA4 /* wideEyes.m4a */,
+				684DBCA62634B066009C9DA4 /* undercover.m4a */,
+				684DBCAE2634B1A8009C9DA4 /* walcott.m4a */,
+			);
+			path = indie;
+			sourceTree = "<group>";
+		};
+		6861F59226336B5C00A897E7 /* rock */ = {
+			isa = PBXGroup;
+			children = (
+				68272AB7260900F600041242 /* everlong.m4a */,
+				684DBC2526348873009C9DA4 /* high.m4a */,
+				684DBC2A26348A2E009C9DA4 /* religion.m4a */,
+				684DBC2F26348B62009C9DA4 /* suburbs.m4a */,
+				684DBC3426348CA6009C9DA4 /* young.m4a */,
+			);
+			path = rock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +372,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				684DBC6026349CA8009C9DA4 /* sunday.m4a in Resources */,
+				684DBC9F2634AE1A009C9DA4 /* wideEyes.m4a in Resources */,
+				684DBC8A2634A98E009C9DA4 /* hoHey.m4a in Resources */,
+				684DBC852634A780009C9DA4 /* fastCar.m4a in Resources */,
 				68272A802608E8D100041242 /* Preview Assets.xcassets in Resources */,
+				684DBC4D263496DA009C9DA4 /* pieces.m4a in Resources */,
+				684DBC6D2634A190009C9DA4 /* america.m4a in Resources */,
+				684DBC522634985C009C9DA4 /* birdland.m4a in Resources */,
+				684DBC652634A000009C9DA4 /* comeDown.m4a in Resources */,
+				684DBC5726349B8F009C9DA4 /* wesleys.m4a in Resources */,
+				684DBC8F2634AAD4009C9DA4 /* sourGrapes.m4a in Resources */,
+				68B6669726333C8700AD6051 /* ComingSoon.ttf in Resources */,
+				684DBCA72634B066009C9DA4 /* undercover.m4a in Resources */,
+				684DBC3526348CA6009C9DA4 /* young.m4a in Resources */,
+				68272AB8260900F700041242 /* everlong.m4a in Resources */,
+				684DBCAF2634B1A8009C9DA4 /* walcott.m4a in Resources */,
+				68B3F88B2632629000FC0437 /* 1901.m4a in Resources */,
+				684DBC4326349391009C9DA4 /* flyMe.m4a in Resources */,
+				684DBC3026348B62009C9DA4 /* suburbs.m4a in Resources */,
+				684DBC772634A3CD009C9DA4 /* slightFigure.m4a in Resources */,
+				684DBC2B26348A2E009C9DA4 /* religion.m4a in Resources */,
+				684DBC3A26348EF9009C9DA4 /* sunnySide.m4a in Resources */,
+				684DBC4826349553009C9DA4 /* satinDoll.m4a in Resources */,
 				68272A7D2608E8D100041242 /* Assets.xcassets in Resources */,
+				684DBC942634ACEE009C9DA4 /* apartment.m4a in Resources */,
+				684DBC802634A520009C9DA4 /* missed.m4a in Resources */,
+				684DBC722634A285009C9DA4 /* wakeUp.m4a in Resources */,
+				684DBC2626348873009C9DA4 /* high.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +425,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				68272A7B2608E8D000041242 /* ContentView.swift in Sources */,
+				680BE5062633646800E94430 /* Info.swift in Sources */,
+				684DBCB7263631E6009C9DA4 /* AudioPlayer.swift in Sources */,
+				68B3F88626325C9700FC0437 /* tabLauncher.swift in Sources */,
+				68B3F8932632667900FC0437 /* lyricLauncher.swift in Sources */,
+				68272ADA26090A1D00041242 /* Storage.swift in Sources */,
+				6871D23126325348002D2607 /* musicVideo.swift in Sources */,
+				68272AAC2608EAEF00041242 /* CardView.swift in Sources */,
 				68272A792608E8D000041242 /* JukeBoxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
