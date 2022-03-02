@@ -88,7 +88,7 @@ struct CardView: View {
                             .brightness(twist.isPlaying ? 0 : -0.3)
                             .padding(twist.isPlaying ? 15 : 50)
                             .animation(.spring(response: 0.6, dampingFraction: 0.4, blendDuration: 0.7))
-                            .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 5, x: 4, y: 8)
+                            .shadow(color: .black, radius: 5, x: 4, y: 8)
                         
                         Spacer()
                             .frame(height: 40)
@@ -252,10 +252,16 @@ struct CardView: View {
                                 }, label: {
                                     Image(systemName: "chevron.left.circle.fill")
                                         .padding()
-                                        .font(.largeTitle)
-                                        .foregroundColor(Color ("blueish"))
+                                        .font(.title)    .foregroundColor(Color ("blueish"))
                                         .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 3.3, x: 0, y: 0)
                                 })
         )
+    }
+}
+
+// Preview for testing
+struct CardView_Previews: PreviewProvider {
+    static var previews: some View {
+        CardView(song: allsongs[1][0])
     }
 }

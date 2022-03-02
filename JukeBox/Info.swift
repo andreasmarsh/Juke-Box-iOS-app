@@ -60,7 +60,7 @@ struct Info: View {
                                 }, label: {
                                     Image(systemName: "chevron.left.circle.fill")
                                         .padding()
-                                        .font(.largeTitle)
+                                        .font(.title)   
                                         .foregroundColor(Color ("blueish"))
                                         .shadow(color: /*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/, radius: 3.3, x: 0, y: 0)
                                 })

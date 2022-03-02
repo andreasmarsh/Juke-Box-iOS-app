@@ -41,6 +41,10 @@
 		684DBCA72634B066009C9DA4 /* undercover.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBCA62634B066009C9DA4 /* undercover.m4a */; };
 		684DBCAF2634B1A8009C9DA4 /* walcott.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 684DBCAE2634B1A8009C9DA4 /* walcott.m4a */; };
 		684DBCB7263631E6009C9DA4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684DBCB6263631E6009C9DA4 /* AudioPlayer.swift */; };
+		684FC71327CFE42F00907F6D /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FC71227CFE42F00907F6D /* CustomPickerView.swift */; };
+		684FC71527CFE45A00907F6D /* CustomPickerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684FC71427CFE45A00907F6D /* CustomPickerTextView.swift */; };
+		684FC71C27CFE86000907F6D /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 684FC71A27CFE86000907F6D /* Montserrat-Regular.ttf */; };
+		684FC71D27CFE86000907F6D /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 684FC71B27CFE86000907F6D /* Montserrat-SemiBold.ttf */; };
 		6871D23126325348002D2607 /* musicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6871D23026325348002D2607 /* musicVideo.swift */; };
 		68B3F88626325C9700FC0437 /* tabLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3F88526325C9700FC0437 /* tabLauncher.swift */; };
 		68B3F88B2632629000FC0437 /* 1901.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 68B3F88A2632628F00FC0437 /* 1901.m4a */; };
@@ -106,6 +110,10 @@
 		684DBCA62634B066009C9DA4 /* undercover.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = undercover.m4a; sourceTree = "<group>"; };
 		684DBCAE2634B1A8009C9DA4 /* walcott.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = walcott.m4a; sourceTree = "<group>"; };
 		684DBCB6263631E6009C9DA4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		684FC71227CFE42F00907F6D /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		684FC71427CFE45A00907F6D /* CustomPickerTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerTextView.swift; sourceTree = "<group>"; };
+		684FC71A27CFE86000907F6D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		684FC71B27CFE86000907F6D /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		6871D23026325348002D2607 /* musicVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicVideo.swift; sourceTree = "<group>"; };
 		68B3F88526325C9700FC0437 /* tabLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabLauncher.swift; sourceTree = "<group>"; };
 		68B3F88A2632628F00FC0437 /* 1901.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1901.m4a; sourceTree = "<group>"; };
@@ -168,9 +176,13 @@
 				684DBCB6263631E6009C9DA4 /* AudioPlayer.swift */,
 				680BE5052633646800E94430 /* Info.swift */,
 				6871D23026325348002D2607 /* musicVideo.swift */,
+				684FC71227CFE42F00907F6D /* CustomPickerView.swift */,
+				684FC71427CFE45A00907F6D /* CustomPickerTextView.swift */,
 				68B3F88526325C9700FC0437 /* tabLauncher.swift */,
 				68B3F8922632667900FC0437 /* lyricLauncher.swift */,
 				68B6669626333C8700AD6051 /* ComingSoon.ttf */,
+				684FC71A27CFE86000907F6D /* Montserrat-Regular.ttf */,
+				684FC71B27CFE86000907F6D /* Montserrat-SemiBold.ttf */,
 				68272A7C2608E8D100041242 /* Assets.xcassets */,
 				6861F58B26336AFD00A897E7 /* indie */,
 				6861F59226336B5C00A897E7 /* rock */,
@@ -396,6 +408,8 @@
 				684DBC3A26348EF9009C9DA4 /* sunnySide.m4a in Resources */,
 				684DBC4826349553009C9DA4 /* satinDoll.m4a in Resources */,
 				68272A7D2608E8D100041242 /* Assets.xcassets in Resources */,
+				684FC71D27CFE86000907F6D /* Montserrat-SemiBold.ttf in Resources */,
+				684FC71C27CFE86000907F6D /* Montserrat-Regular.ttf in Resources */,
 				684DBC942634ACEE009C9DA4 /* apartment.m4a in Resources */,
 				684DBC802634A520009C9DA4 /* missed.m4a in Resources */,
 				684DBC722634A285009C9DA4 /* wakeUp.m4a in Resources */,
@@ -425,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68272A7B2608E8D000041242 /* ContentView.swift in Sources */,
+				684FC71327CFE42F00907F6D /* CustomPickerView.swift in Sources */,
 				680BE5062633646800E94430 /* Info.swift in Sources */,
 				684DBCB7263631E6009C9DA4 /* AudioPlayer.swift in Sources */,
 				68B3F88626325C9700FC0437 /* tabLauncher.swift in Sources */,
@@ -433,6 +448,7 @@
 				6871D23126325348002D2607 /* musicVideo.swift in Sources */,
 				68272AAC2608EAEF00041242 /* CardView.swift in Sources */,
 				68272A792608E8D000041242 /* JukeBoxApp.swift in Sources */,
+				684FC71527CFE45A00907F6D /* CustomPickerTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
